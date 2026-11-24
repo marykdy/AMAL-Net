@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.eggs/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+
+# --- Data (never commit medical images / splits) ---
+data/
+*_3way/
+
+# --- Run outputs / checkpoints ---
+runs/
+*/ckpt/
+*.pth
+*.pt
+*.ckpt
+*.tar
+*.onnx
+
+# --- External / optional baselines (not bundled in this repo) ---
+UCTransNet/              # authors' checkout, cloned by fetch_uctransnet.sh
+comparison_models.py     # 5-baseline zoo (optional, set COMPARISON_MODELS_PY)
+ourunified.py            # pre-revision unified variant (optional)
+
+# --- Misc ---
+.DS_Store
+*.log
+*.swp
+.idea/
+.vscode/

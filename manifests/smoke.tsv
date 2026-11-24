@@ -1,0 +1,5 @@
+# model	dataset	seed  (use with --epochs 2 --limit-batches 20)
+amal	liver	42
+coma	liver	42
+uctransnet	liver	42
+nnunet2d	liver	42

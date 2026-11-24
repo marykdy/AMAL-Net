@@ -1,0 +1,17 @@
+# Core requirements for the AMAL-Net comparison harness.
+torch
+torchvision
+numpy
+pillow
+
+# Optional routes (uncomment only if you use the corresponding baseline variant):
+#
+# UCTransNet "official" route needs an explicit local checkout of the authors'
+# code — no pip package required, point UCTRANSNET_REPO at it.
+#
+# nnU-Net 2D "dna" route (NNUNet2DFromPlans / dynamic_network_architectures):
+# nnunetv2
+# dynamic-network-architectures
+#
+# einops (only if check_env.py reports a warning for the official nnU-Net route):
+# einops

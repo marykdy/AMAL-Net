@@ -1,0 +1,13 @@
+# model	dataset	seed
+amal	liver	42
+coma	liver	42
+uctransnet	liver	42
+nnunet2d	liver	42
+amal	pancreas	42
+coma	pancreas	42
+uctransnet	pancreas	42
+nnunet2d	pancreas	42
+amal	lung	42
+coma	lung	42
+uctransnet	lung	42
+nnunet2d	lung	42
